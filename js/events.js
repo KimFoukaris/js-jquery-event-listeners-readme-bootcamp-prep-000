@@ -13,7 +13,7 @@ function pressIt(){
 }
 
 function submitIt() {
-  $('form').on("submit", function() {
+  $("form").on("submit", function() {
     alert("Your for is going to be submitted now.")
   })
 }
