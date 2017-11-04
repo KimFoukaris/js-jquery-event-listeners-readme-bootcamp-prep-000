@@ -20,7 +20,7 @@ function submitIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-      $('img').setAttribute("class", "tasty")
+      $('img').attr("class", "tasty")
   })
 }
 
